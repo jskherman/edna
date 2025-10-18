@@ -8,4 +8,4 @@ services:
     expose:
       - 9325
     restart: unless-stopped
-    command: "/bin/sh -c 'edna -run-prod'"
+    # command: "/bin/sh -c 'edna -run-prod'"
